@@ -1,0 +1,86 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f7;
+}
+
+.signin-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+.signin-card h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.signin-card label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signin-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.roles-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.roles-section h3 {
+    margin-bottom: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.roles-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.role-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.role-item label {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+.message {
+    margin-bottom: 15px;
+    color: red;
+}
